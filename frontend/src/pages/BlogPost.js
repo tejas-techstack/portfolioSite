@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-import './Blog.css';
+import './css/Blog.css';
 
 function BlogPost() {
     const { fileName } = useParams();  // Get the file name from the URL

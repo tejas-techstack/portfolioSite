@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './Blog.css';
+import './css/Blog.css';
 
 const markdownFiles = require.context('./markdown_files', false, /\.md$/);
 
